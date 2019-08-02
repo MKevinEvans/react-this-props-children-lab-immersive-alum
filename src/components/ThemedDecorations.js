@@ -3,13 +3,12 @@ import React from 'react'
 
 class ThemedDecoration extends React.Component {
  
- const children = "<div className="children"> here </div>"
   // const children = this.props.children.map(child => "<div className="children"> {child} </div>")
  
   render () {
     return(
       <div>
-        {children}
+        children
       </div>
       )
     }
