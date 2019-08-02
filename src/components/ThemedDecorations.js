@@ -7,7 +7,7 @@ class ThemedDecoration extends React.Component {
   render () {
     return(
       <div>
-        <children />
+        {children}
       </div>
       )
     }
