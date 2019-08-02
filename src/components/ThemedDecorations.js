@@ -4,10 +4,7 @@ import React from 'react'
 class ThemedDecoration extends React.Component {
   
   const children = this.props.children.map(child =>
-      return (
         <div className="children"> {child} </div>
-              )
-              }
               )
  
   render () {
