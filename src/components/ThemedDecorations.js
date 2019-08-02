@@ -3,6 +3,7 @@ import React from 'react'
 
 class ThemedDecoration extends React.Component {
   
+  const children = this.props.children.map()
   render () {
     return(
       <div>
